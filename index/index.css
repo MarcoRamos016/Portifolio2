@@ -451,8 +451,8 @@ footer p {
     }
 
     #imagem img {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         justify-content: center;
         align-items: center;
         margin-right: 0;
@@ -460,7 +460,7 @@ footer p {
     }
 
     #imagem li {
-        margin: 10px;
+        margin: 30px;
 
     }
 
