@@ -2,7 +2,7 @@ body,html{
     color: rgb(35, 221, 35);
     margin: 0%;
     width: 100%;
-    zoom: 50%;
+    zoom: 60%;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -398,7 +398,7 @@ footer p {
 
     .navbar li {
         margin-top: 10px;
-
+        margin-left: 100px;
     }
 
     .fivicon {
@@ -438,11 +438,12 @@ footer p {
     }
 
     .redes-sociais {
-        margin-left: 102px;
+        margin-left: 170px;
     }
 
     .espaço {
         display: flex;
+        margin-left: 100px;
     }
 
     header {
@@ -452,7 +453,6 @@ footer p {
     #imagem img {
         width: 200px;
         height: 200px;
-
         justify-content: center;
         align-items: center;
         margin-right: 0;
