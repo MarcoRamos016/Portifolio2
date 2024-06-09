@@ -401,20 +401,24 @@ footer p {
     }
 
     .fivicon img{
-        margin-right: 5px;
+        width: 100px;
+        height: 100px;
+        margin-right: 0px;
         
     }
 
-  
+  .container{
+    margin: 0%;
+  }
 
     .redes-sociais img{
- width: 100px;
+ width: 50px;
 transition: 1s;
-
+margin: 0%;
     }
 
     .redes-sociais{
-        margin-left: 222px;
+        margin-left: 102px;
     }
 
     .espaço {
