@@ -1,4 +1,4 @@
-body {
+body,html{
     color: rgb(35, 221, 35);
     margin: 0%;
     width: 100%;
@@ -376,7 +376,7 @@ footer p {
 
 @media screen and (max-width: 768px) {
     .navbar a {
-        font-size: 34px;
+        font-size: 35px;
         font-weight: 500;
         margin: 6px;
         display: block;
@@ -390,34 +390,54 @@ footer p {
         width: 50vw;
         transition: 1s;
     }
+
     .navbar a:hover::after {
-    width: 0px;
-  
+        width: 0px;
+
     }
 
     .navbar li {
         margin-top: 10px;
-        
+
     }
 
-    .fivicon img{
-        width: 100px;
-        height: 100px;
+    .fivicon {
+        margin: 0;
+        padding: 0;
+    }
+
+    .fivicon img {
+        width: 80px;
+        height: 80px;
         margin-right: 0px;
-        
     }
 
-  .container{
-    margin: 0%;
-  }
-
-    .redes-sociais img{
- width: 50px;
-transition: 1s;
-margin: 0%;
+    .container {
+        margin: 0%;
     }
 
-    .redes-sociais{
+    .redes-sociais img {
+        width: 50px;
+        transition: 1s;
+        margin: 0%;
+    }
+
+    .instagramcolor:hover{
+        filter: none;
+        transform: none;
+    }
+
+    .youtubecolor:hover{
+        filter: none;
+        transform: none;
+    }
+    
+    .githubcolor:hover{
+        filter: none;
+        transform: none;
+    }
+
+    .redes-sociais {
         margin-left: 102px;
     }
 
@@ -426,25 +446,25 @@ margin: 0%;
     }
 
     header {
-margin-top: 15%;
+        margin-top: 15%;
     }
 
-    #imagem img{
+    #imagem img {
         width: 200px;
         height: 200px;
 
         justify-content: center;
         align-items: center;
         margin-right: 0;
-        
+
     }
 
-    #imagem li{
+    #imagem li {
         margin: 10px;
-     
+
     }
 
-    #imagem{
+    #imagem {
         margin-right: 150px;
     }
 }
