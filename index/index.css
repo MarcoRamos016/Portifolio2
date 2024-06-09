@@ -375,10 +375,10 @@ footer p {
 
 
 @media screen and (max-width: 768px) {
-    html,body{
-        zoom: 60%;
-    }
-
+html,body{
+    zoom: 60%;
+}
+    
     .navbar a {
         font-size: 35px;
         font-weight: 500;
@@ -477,6 +477,6 @@ footer p {
 
 @media screen and (max-width: 400px){
     html,body{
-        zoom: 60%;
+        zoom: 55%;
     }
 }
