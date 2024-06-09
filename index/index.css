@@ -397,7 +397,7 @@ footer p {
 
     .navbar li {
         margin-top: 10px;
-
+        
     }
 
     .fivicon img{
@@ -429,4 +429,22 @@ margin: 0%;
 margin-top: 15%;
     }
 
+    #imagem img{
+        width: 200px;
+        height: 200px;
+
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+        
+    }
+
+    #imagem li{
+        margin: 10px;
+     
+    }
+
+    #imagem{
+        margin-right: 150px;
+    }
 }
