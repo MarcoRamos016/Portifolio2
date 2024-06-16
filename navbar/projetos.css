@@ -18,6 +18,8 @@ body {
 
 h1 {
     font-size: 90px;
+    margin-top: 200px;
+    text-align: center;
 }
 
 .navbar {
