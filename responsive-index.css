@@ -124,6 +124,9 @@
     flex-direction: column;
     width: 1000px;
     position: relative;
+    display: block;
+    margin: auto;
+    inset: 0px;
   }
 
   #imagem li {
@@ -136,7 +139,7 @@
 
   /* tela normal */
   .carousel-control-prev {
-    display: n;
+    display: none;
   }
 
   .carousel-control-next {
@@ -149,13 +152,17 @@
 
   /* -------------- */
   .carousel-inner1 {
-    display: flex;
+    display: block;
+    box-sizing: border-box;
+    inset: 0px;
+
   }
 
   .carousel-inner1 img {
     width: 1000px;
     height: 1000px;
     max-width: 100%;
+
   }
 
   .navbar button {
@@ -194,11 +201,13 @@
   }
 
   .carousel-control-prev1 {
-    display: flex;
+    display: none;
+    margin: auto;
+
   }
 
   .carousel-control-next1 {
-    display: flex;
+    display: none;
   }
 
   .dropdown-menu li a {
