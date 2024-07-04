@@ -200,6 +200,31 @@
   .carousel-control-next1 {
     display: flex;
   }
+
+  .dropdown-menu li a {
+    background-color: rgb(43, 41, 41);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 500px;
+    border: none;
+
+  }
+
+  .dropdown-menu a {
+    color: white;
+    border: none;
+  }
+
+  .dropdown-menu {
+    font-size: 100px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+
+  }
+
+
+
 }
 
 
