@@ -1,0 +1,264 @@
+@media screen and (max-width: 1020px) {
+
+  hmtl,
+  body {
+    zoom: 50%;
+  }
+
+  .biografia-container img {
+    width: 40%;
+  }
+
+  .slide img {
+    width: 100%;
+  }
+
+  .carousel-inner1 {
+    display: none;
+  }
+
+  .carousel-control-prev1 {
+    display: none;
+  }
+
+  .carousel-control-next1 {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  html,
+  body {
+    zoom: 65%;
+  }
+
+  .navbar a {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 6px;
+    display: block;
+    width: 50vw;
+  }
+
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block;
+    width: 50vw;
+    transition: 1s;
+  }
+
+  .navbar a:hover::after {
+    width: 0px;
+  }
+
+  .navbar li {
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
+  .fivicon {
+    margin: 0;
+    padding: 0;
+  }
+
+  .fivicon img {
+    width: 80px;
+    height: 80px;
+    margin-right: 0px;
+  }
+
+  .container {
+    margin: 0%;
+  }
+
+  .redes-sociais img {
+    width: 50px;
+    transition: 1s;
+    margin: 0%;
+  }
+
+  .instagramcolor:hover {
+    filter: none;
+    transform: none;
+  }
+
+  .youtubecolor:hover {
+    filter: none;
+    transform: none;
+  }
+
+  .githubcolor:hover {
+    filter: none;
+    transform: none;
+  }
+
+  .redes-sociais {
+    margin-left: 170px;
+  }
+
+  .espaço {
+    display: flex;
+    margin-left: 100px;
+  }
+
+  header {
+    margin-top: 15%;
+  }
+
+  #imagem img {
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    display: flex;
+  }
+
+  .card-bio {
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    position: absolute;
+  }
+
+  #imagem li {
+    margin: 30px;
+  }
+
+  #imagem {
+    margin-right: 150px;
+  }
+
+  /* tela normal */
+  .carousel-control-prev {
+    display: n;
+  }
+
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-inner {
+    display: none;
+  }
+
+  /* -------------- */
+  .carousel-inner1 {
+    display: flex;
+  }
+
+  .carousel-inner1 img {
+    width: 1000px;
+    height: 1000px;
+    max-width: 100%;
+  }
+
+  .navbar button {
+    display: none;
+  }
+
+  .navbar {
+    padding-top: 100px;
+  }
+
+  .navbar a {
+    display: none;
+
+  }
+
+  .dropdown {
+    display: flex;
+    border: none;
+    background: none;
+    left: 100px;
+  }
+
+
+  .fivicon {
+    left: 54px;
+    position: absolute;
+  }
+
+  #espaço {
+    margin-left: 50px;
+  }
+
+  .redes-sociais {
+    margin-right: 160px;
+    position: absolute;
+  }
+
+  .carousel-control-prev1 {
+    display: flex;
+  }
+
+  .carousel-control-next1 {
+    display: flex;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+
+  html,
+  body {
+    zoom: 50%;
+  }
+
+  .navbar button {
+    display: none;
+  }
+
+  .navbar a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 330px) {
+
+  html,
+  body {
+    zoom: 45%;
+  }
+
+  .whatsapp-icon {
+
+    bottom: 174px;
+    right: 10px;
+    z-index: 3;
+    transition: 2s;
+
+  }
+
+  .whatsapp-icon svg {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 260px) {
+
+  html,
+  body {
+    zoom: 45%;
+  }
+
+  .whatsapp-icon {
+
+    bottom: 174px;
+    right: 10px;
+    z-index: 3;
+    transition: 2s;
+
+  }
+
+  .whatsapp-icon svg {
+    width: 180px;
+    height: 180px;
+  }
+}
