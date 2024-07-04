@@ -146,6 +146,7 @@
     display: none;
   }
 
+
   .carousel-inner {
     display: none;
   }
@@ -160,8 +161,9 @@
 
   .carousel-inner1 img {
     width: 1000px;
-    height: 1000px;
+    height: 800px;
     max-width: 100%;
+
 
   }
 
@@ -217,18 +219,28 @@
     padding-right: 500px;
     border: none;
 
+
+  }
+
+  .dropdown-item {
+    width: 100%;
+    padding-left: 500px;
+  }
+
+  .dropdown-item:hover {
+    background-color: rgb(77, 73, 73);
+
   }
 
   .dropdown-menu a {
     color: white;
-    border: none;
   }
 
   .dropdown-menu {
     font-size: 100px;
-    border: none;
     border-radius: 10px;
-    position: absolute;
+    position: relative;
+    background-color: rgb(0, 0, 0);
 
   }
 
@@ -257,7 +269,7 @@
 
   html,
   body {
-    zoom: 45%;
+    zoom: 52%;
   }
 
   .whatsapp-icon {
@@ -272,7 +284,10 @@
   .whatsapp-icon svg {
     width: 180px;
     height: 180px;
+
   }
+
+
 }
 
 @media screen and (max-width: 260px) {

@@ -2,12 +2,12 @@ body,
 html {
   color: rgb(35, 221, 35);
   margin: 0%;
-  width: 100%;
   zoom: 70%;
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+  height: 100vh;
+
+
 }
 
 #curriculo {
@@ -16,6 +16,7 @@ html {
   justify-content: center;
   display: flex;
   position: static;
+
 }
 
 #curriculo a {
@@ -107,7 +108,7 @@ button {
   content: " ";
   width: 0px;
   height: 6px;
-  background-image: linear-gradient(45deg, #2600ff, #1da766);
+  background-image: linear-gradient(45deg, #000000, #00e61f);
   position: absolute;
   top: 60px;
   left: 0;
@@ -140,6 +141,7 @@ h2 {
   font-size: 40px;
   padding: 0px 0px 0px 60px;
   margin: 35px;
+
 }
 
 header div img {
@@ -367,12 +369,13 @@ footer p {
   bottom: 154px;
   right: 10px;
   z-index: 3;
-  transition: 2s;
+  transition: 500ms;
 }
 
 .whatsapp-icon:hover {
-  transform: scale(1.1);
-  opacity: 0.5;
+  transform: scale(1.2);
+  opacity: 0.3;
+  filter: drop-shadow(5px 5px rgb(250, 250, 250));
 }
 
 .carousel-inner1 {
@@ -385,4 +388,74 @@ footer p {
 
 .carousel-control-next1 {
   display: none;
+}
+
+.span-txt {
+  font-size: 45px;
+  font-weight: 500;
+
+}
+
+.span-txt {
+  position: relative;
+}
+
+.span-txt::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-left: 2px solid forestgreen;
+  right: -10px;
+  opacity: 1;
+  animation: cursor .8s infinite, digita 20s steps(15) infinite;
+  width: calc(100% + 10px);
+  background-color: #000000;
+}
+
+.span-txt::before {
+  content: "";
+  color: rgb(5, 255, 5);
+  animation: palavra-animada 20s infinite;
+}
+
+@keyframes digita {
+
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 10px);
+  }
+}
+
+@keyframes cursor {
+  0% {
+    border-left: 2px solid #000000100;
+  }
+}
+
+@keyframes palavra-animada {
+
+  0%,
+  100% {
+    content: "Front-end";
+  }
 }
