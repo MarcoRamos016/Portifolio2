@@ -137,6 +137,7 @@
 
   #imagem {
     margin-right: 150px;
+    position: relative;
   }
 
   /* tela normal */
@@ -266,7 +267,6 @@
   }
 }
 
-}
 
 
 @media screen and (max-width: 400px) {
