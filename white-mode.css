@@ -1,0 +1,123 @@
+body {
+    transition: 1s;
+}
+
+* {
+    transition: 500ms;
+}
+
+.trilho {
+    width: 150px;
+    height: 70px;
+    background-color: rgb(85, 83, 83);
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.trilho .indicador {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.trilho.white {
+    background-color: #c3c3c3;
+}
+
+.trilho.white .indicador {
+    left: 80px;
+    background-color: #ffff;
+}
+
+.trilho {
+    margin-left: 350px;
+    max-width: 6%;
+}
+
+/* celular version */
+
+.trilho1 {
+    width: 20px;
+    height: 50px;
+    background-color: rgb(85, 83, 83);
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.trilho1 .indicador1 {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.trilho1.white {
+    background-color: #c3c3c3;
+}
+
+.trilho1.white .indicador1 {
+    left: 50px;
+    background-color: #ffff;
+}
+
+.trilho1 {
+    max-width: 9%;
+}
+
+/* ---------------------------------------------------------------------- */
+body.white {
+
+
+    h2,
+    p,
+    a {
+
+        color: #000000;
+    }
+
+    .navcontainer {
+        background-color: white;
+    }
+
+
+    .txt-animado {
+        background-color: rgb(238, 231, 231);
+        border-bottom: 2px solid rgb(3, 3, 3);
+        box-shadow: 0px 0px 90px 0px rgb(255, 255, 255);
+    }
+
+    .span-txt::after {
+        background-color: rgb(238, 231, 231);
+        animation: cursor .8s infinite, digita 30s steps(15) infinite
+    }
+
+    .card-bio {
+        background-color: rgb(238, 231, 231);
+        border-bottom: 2px solid rgb(3, 3, 3);
+        box-shadow: 0px 0px 90px 0px rgb(199, 197, 197);
+
+    }
+
+    #contato p {
+        color: black;
+    }
+
+    #contato a:hover {
+        color: rgb(25, 255, 4);
+    }
+
+    .Container-perfil a {
+        color: white;
+    }
+}

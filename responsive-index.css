@@ -2,7 +2,7 @@
 
   hmtl,
   body {
-    zoom: 50%;
+    zoom: 46%;
   }
 
   .biografia-container img {
@@ -63,12 +63,13 @@
   .fivicon {
     margin: 0;
     padding: 0;
+
   }
 
   .fivicon img {
     width: 80px;
     height: 80px;
-    margin-right: 0px;
+    left: 10px;
   }
 
   .container {
@@ -249,7 +250,6 @@
 
   }
 
-
   .biografia-container {
     position: relative;
     margin-top: 7%;
@@ -265,74 +265,93 @@
     font-size: 40px;
     font-weight: 600;
   }
-}
 
-
-
-@media screen and (max-width: 400px) {
-
-  html,
-  body {
-    zoom: 50%;
-  }
-
-  .navbar button {
+  .trilho {
     display: none;
   }
 
-  .navbar a {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 330px) {
-
-  html,
-  body {
-    zoom: 52%;
+  .Container-perfil {
+    flex-direction: column;
   }
 
-  .whatsapp-icon {
-
-    bottom: 174px;
-    right: 10px;
-    z-index: 3;
-    transition: 2s;
-
+  .trilho1 {
+    display: flex;
+    max-width: 10%;
+    width: 100%;
+    margin-right: 850px;
+    position: absolute;
   }
 
-  .whatsapp-icon svg {
-    width: 180px;
-    height: 180px;
-
-  }
-
-
-}
-
-@media screen and (max-width: 260px) {
-
-  html,
-  body {
-    zoom: 45%;
-  }
-
-  .whatsapp-icon {
-
-    bottom: 174px;
-    right: 10px;
-    z-index: 3;
-    transition: 2s;
-
-  }
-
-  .whatsapp-icon svg {
-    width: 180px;
-    height: 180px;
-  }
-
-  .card-bio {
-    left: 45px;
+  .indicador1 {
     position: relative;
   }
-}
+
+
+
+  @media screen and (max-width: 400px) {
+
+    html,
+    body {
+      zoom: 50%;
+    }
+
+    .navbar button {
+      display: none;
+    }
+
+    .navbar a {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 330px) {
+
+    html,
+    body {
+      zoom: 52%;
+    }
+
+    .whatsapp-icon {
+
+      bottom: 174px;
+      right: 10px;
+      z-index: 3;
+      transition: 2s;
+
+    }
+
+    .whatsapp-icon svg {
+      width: 180px;
+      height: 180px;
+
+    }
+
+
+  }
+
+  @media screen and (max-width: 260px) {
+
+    html,
+    body {
+      zoom: 45%;
+    }
+
+    .whatsapp-icon {
+
+      bottom: 174px;
+      right: 10px;
+      z-index: 3;
+      transition: 2s;
+
+    }
+
+    .whatsapp-icon svg {
+      width: 180px;
+      height: 180px;
+    }
+
+    .card-bio {
+      left: 45px;
+      position: relative;
+    }
+  }
