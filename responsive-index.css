@@ -11,6 +11,7 @@
 
   .slide img {
     width: 100%;
+    z-index: 1;
   }
 
   .carousel-inner1 {
@@ -117,6 +118,7 @@
     display: flex;
   }
 
+
   .card-bio {
     border: 0;
     align-items: center;
@@ -149,6 +151,7 @@
 
   .carousel-inner {
     display: none;
+
   }
 
   /* -------------- */
@@ -166,6 +169,7 @@
 
 
   }
+
 
   .navbar button {
     display: none;
@@ -245,6 +249,22 @@
   }
 
 
+  .biografia-container {
+    position: relative;
+    margin-top: 7%;
+    max-width: 100%;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 10%;
+
+  }
+
+
+  .card-bio>p {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
 
 }
 
