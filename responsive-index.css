@@ -99,6 +99,7 @@
 
   .redes-sociais {
     margin-left: 170px;
+    position: fixed;
   }
 
   .espaço {
@@ -130,6 +131,9 @@
     display: block;
     margin: auto;
     inset: 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(129, 129, 129);
+    border-radius: 12px;
   }
 
   #imagem li {
@@ -276,10 +280,11 @@
 
   .trilho1 {
     display: flex;
-    max-width: 10%;
-    width: 100%;
-    margin-right: 850px;
-    position: absolute;
+    max-width: 19%;
+    width: 10%;
+    left: 270px;
+    position: fixed;
+
   }
 
   .indicador1 {
@@ -287,71 +292,125 @@
   }
 
 
-
-  @media screen and (max-width: 400px) {
-
-    html,
-    body {
-      zoom: 50%;
-    }
-
-    .navbar button {
-      display: none;
-    }
-
-    .navbar a {
-      display: none;
-    }
+  .trilho1.white .indicador1 {
+    left: 90px;
+    background-color: #ffff;
   }
 
-  @media screen and (max-width: 330px) {
+}
 
-    html,
-    body {
-      zoom: 52%;
-    }
+@media screen and (max-width: 540px) {
 
-    .whatsapp-icon {
 
-      bottom: 174px;
-      right: 10px;
-      z-index: 3;
-      transition: 2s;
-
-    }
-
-    .whatsapp-icon svg {
-      width: 180px;
-      height: 180px;
-
-    }
-
+  .trilho1 {
+    display: flex;
+    max-width: 19%;
+    width: 12%;
+    left: 170px;
+    position: fixed;
 
   }
 
-  @media screen and (max-width: 260px) {
 
-    html,
-    body {
-      zoom: 45%;
-    }
-
-    .whatsapp-icon {
-
-      bottom: 174px;
-      right: 10px;
-      z-index: 3;
-      transition: 2s;
-
-    }
-
-    .whatsapp-icon svg {
-      width: 180px;
-      height: 180px;
-    }
-
-    .card-bio {
-      left: 45px;
-      position: relative;
-    }
+  .trilho1.white .indicador1 {
+    left: 80px;
+    background-color: #ffff;
   }
+}
+
+@media screen and (max-width: 400px) {
+
+  html,
+  body {
+    zoom: 50%;
+  }
+
+  .navbar button {
+    display: none;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+
+  .trilho1 {
+    display: flex;
+    max-width: 19%;
+    width: 10%;
+    left: 170px;
+    position: fixed;
+
+  }
+
+
+  .trilho1.white .indicador1 {
+    left: 70px;
+    background-color: #ffff;
+  }
+}
+
+@media screen and (max-width: 330px) {
+
+  html,
+  body {
+    zoom: 52%;
+  }
+
+  .whatsapp-icon {
+
+    bottom: 174px;
+    right: 10px;
+    z-index: 3;
+    transition: 2s;
+
+  }
+
+  .whatsapp-icon svg {
+    width: 180px;
+    height: 180px;
+
+  }
+
+
+  .trilho1 {
+    display: flex;
+    max-width: 19%;
+    width: 10%;
+    left: 170px;
+    position: fixed;
+
+  }
+}
+
+@media screen and (max-width: 260px) {
+
+  html,
+  body {
+    zoom: 45%;
+  }
+
+  .whatsapp-icon {
+
+    bottom: 174px;
+    right: 10px;
+    z-index: 3;
+    transition: 2s;
+
+  }
+
+  .whatsapp-icon svg {
+    width: 180px;
+    height: 180px;
+  }
+
+  .card-bio {
+    left: 45px;
+    position: relative;
+  }
+
+  .trilho1.white .indicador1 {
+    left: 50px;
+    background-color: #ffff;
+  }
+}
