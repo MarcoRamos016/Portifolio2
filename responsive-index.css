@@ -1,8 +1,8 @@
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1120px) {
 
   hmtl,
   body {
-    zoom: 46%;
+    zoom: 45%;
   }
 
   .biografia-container img {
