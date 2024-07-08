@@ -224,19 +224,15 @@
 
   .dropdown-menu li a {
     background-color: rgb(43, 41, 41);
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 80px;
-    border: none;
     text-align: center;
-
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
-  .dropdown-item {
-    margin: 0%;
-    width: 100%;
-    padding-left: 520px;
-    padding-right: 520px;
-  }
+
+
 
   .dropdown-item:hover {
     background-color: rgb(77, 73, 73);
@@ -249,6 +245,8 @@
 
   }
 
+
+
   .dropdown-menu a {
     color: white;
     text-align: center;
@@ -259,6 +257,7 @@
     border-radius: 10px;
     position: relative;
     background-color: rgb(43, 41, 41);
+
 
   }
 
