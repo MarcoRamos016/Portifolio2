@@ -122,18 +122,8 @@ body.white {
         color: white;
     }
 
-
-    .dropdown-menu li a {
+    .mobile-menu {
         background-color: white;
-        padding-top: 80px;
-        padding-bottom: 80px;
-        border: none;
-        text-align: center;
-
     }
 
-    .dropdown-menu a {
-        transform: scale(1.3);
-
-    }
 }

@@ -84,13 +84,16 @@ html {
   z-index: 2;
 }
 
-.navbar {
+.nav-list {
   padding-left: 50px;
   margin: 0%;
-
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding-block: 25px;
 }
 
-.navbar a {
+.nav-list a {
   margin: 50px;
 
 }
@@ -114,7 +117,7 @@ button {
   margin-left: 100px;
 }
 
-.navbar a::after {
+.nav-list a::after {
   content: " ";
   width: 0px;
   height: 6px;
@@ -125,7 +128,7 @@ button {
   transition: width 0.7s;
 }
 
-.navbar a:hover::after {
+.nav-list a:hover::after {
   width: 150px;
 }
 
@@ -387,9 +390,6 @@ footer p {
   margin-left: 20px;
 }
 
-.dropdown {
-  display: none;
-}
 
 .whatsapp-icon {
   position: fixed;
@@ -499,5 +499,15 @@ footer p {
 }
 
 .trilho1 {
+  display: none;
+}
+
+.mobile-menu-icon {
+  display: none;
+
+}
+
+
+.mobile-menu {
   display: none;
 }

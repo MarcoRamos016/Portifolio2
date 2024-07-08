@@ -40,12 +40,11 @@
     <div class="container-nav">
         <nav>
             <ul class="navcontainer">
-
                 <div class="fivicon">
                     <img src="./IconSite/ms-icon-144x144.png" alt="">
                 </div>
 
-                <div class="navbar">
+                <div class="nav-list">
                     <li>
                         <button>
                             <a href="navbar/Sobremim.html">Sobre mim</a>
@@ -62,8 +61,6 @@
                         </button>
                     </li>
                 </div>
-
-
 
                 <div class="redes-sociais">
                     <li class="espaço">
@@ -84,31 +81,14 @@
                             <img src="./img/github.svg" width="50px" height="50px"></img>
                         </a>
                     </li>
-                    <!--  
-                    <div class="dropdown">
-                        <button class="" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/menu--v6.png"
-                                alt="menu--v6" />
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item " href="/navbar/Sobremim.html">Sobre mim</a></li>
-                            <li><a class="dropdown-item" href="/navbar/cursos.html">Cursos</a></li>
-                            <li><a class="dropdown-item" href="/navbar/projetos.html">Projetos</a></li>
-                        </ul>
-                    </div>
-                    -->
-                    <div class="dropdown">
-                        <button class=" " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/menu--v6.png"
-                                alt="menu--v6" />
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/navbar/Sobremim.html">Sobre mim</a></li>
-                            <li><a class="dropdown-item" href="/navbar/cursos.html">Cursos</a></li>
-                            <li><a class="dropdown-item" href="/navbar/projetos.html">Projetos</a></li>
-                        </ul>
-                    </div>
                 </div>
+
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon"
+                            src="https://img.icons8.com/ios-filled/50/menu--v6.png" alt=""></button>
+                </div>
+
                 <div class="trilho1" id="trilho1">
                     <div class="indicador1" id="indicador1"></div>
                 </div>
@@ -117,6 +97,14 @@
                 </div>
             </ul>
         </nav>
+
+    </div>
+    <div class="mobile-menu">
+        <ul>
+            <li><a class="nav-item" href="/navbar/Sobremim.html">Sobre mim</a></li>
+            <li><a class="nav-item" href="/navbar/cursos.html">Cursos</a></li>
+            <li><a class="nav-item" href="/navbar/projetos.html">Projetos</a></li>
+        </ul>
     </div>
     <div class="Container-perfil">
         <header>
@@ -256,6 +244,7 @@
 
 
     <script src="white-mode.js"></script>
+    <script src="dropdown.js"></script>
 </body>
 
 </html>
