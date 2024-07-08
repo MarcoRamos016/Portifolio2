@@ -317,9 +317,16 @@
 
   }
 
-
   .trilho1.white .indicador1 {
     left: 80px;
+  }
+
+  .dropdown-menu li a {
+    background-color: rgb(43, 41, 41);
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 540px;
+    padding-right: 1140px;
   }
 }
 
