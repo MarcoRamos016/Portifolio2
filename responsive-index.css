@@ -36,7 +36,6 @@
   }
 
   .nav-list a {
-    font-weight: 500;
     margin: 6px;
     display: block;
     width: 50vw;
@@ -178,6 +177,8 @@
     display: none;
   }
 
+
+
   .nav-list {
     padding-top: 100px;
   }
@@ -300,15 +301,18 @@
 
   .mobile-menu {
     background-color: rgb(43, 41, 41);
-    padding-bottom: 20%;
+    padding-bottom: 15%;
+    padding-top: 60px;
+
   }
 
   .nav-list {
-    margin-right: 150px;
+    margin-right: 155px;
   }
 
   .nav-list a {
-    font-size: 2em;
+    font-size: 40px;
+    height: 200px;
 
   }
 
@@ -329,6 +333,8 @@
   .navcontainer {
     align-items: normal;
   }
+
+
 }
 
 @media screen and (max-width: 540px) {
@@ -347,6 +353,12 @@
     left: 80px;
   }
 
+  .nav-list a {
+    margin: 6px;
+    display: block;
+    width: 50vw;
+    font-size: 36px;
+  }
 
 }
 
