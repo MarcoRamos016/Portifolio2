@@ -49,6 +49,7 @@ body {
     border-radius: 150px;
     position: relative;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .trilho1 .indicador1 {

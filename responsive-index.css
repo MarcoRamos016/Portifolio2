@@ -36,7 +36,6 @@
   }
 
   .nav-list a {
-    font-size: 35px;
     font-weight: 500;
     margin: 6px;
     display: block;
@@ -55,10 +54,7 @@
     width: 0px;
   }
 
-  .nav-list li {
-    margin-top: 10px;
-    margin-left: 100px;
-  }
+
 
   .fivicon {
     margin: 0;
@@ -79,7 +75,8 @@
   .redes-sociais img {
     width: 45px;
     transition: 1s;
-    margin: 0%;
+    margin-top: -70%;
+
   }
 
   .instagramcolor:hover {
@@ -98,7 +95,7 @@
   }
 
   .redes-sociais {
-    margin-left: 65px;
+    margin-left: 55px;
     position: fixed;
   }
 
@@ -266,6 +263,7 @@
     display: block;
     position: absolute;
     right: 100px;
+
   }
 
   .mobile-menu-icon button {
@@ -274,6 +272,7 @@
     cursor: pointer;
     float: right;
     right: 100px;
+    margin-top: 15px;
   }
 
   .mobile-menu ul {
@@ -301,12 +300,15 @@
 
   .mobile-menu {
     background-color: rgb(43, 41, 41);
-    padding-bottom: 8%;
+    padding-bottom: 20%;
   }
 
+  .nav-list {
+    margin-right: 150px;
+  }
 
-  .nav-item {
-    font-size: 60px;
+  .nav-list a {
+    font-size: 2em;
 
   }
 
@@ -315,8 +317,17 @@
     display: block;
   }
 
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+
   .icon:hover {
     transform: scale(none);
+  }
+
+  .navcontainer {
+    align-items: normal;
   }
 }
 
