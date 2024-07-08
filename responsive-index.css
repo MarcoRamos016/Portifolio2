@@ -352,6 +352,7 @@
   .trilho1.white .indicador1 {
     left: 70px;
   }
+
 }
 
 @media screen and (max-width: 330px) {
@@ -384,6 +385,15 @@
     left: 170px;
     position: fixed;
 
+  }
+
+
+  .dropdown-menu li a {
+    background-color: rgb(43, 41, 41);
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 440px;
+    padding-right: 520px;
   }
 }
 
