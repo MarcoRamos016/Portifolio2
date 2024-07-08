@@ -353,6 +353,15 @@
     left: 70px;
   }
 
+
+  .dropdown-menu li a {
+    background-color: rgb(43, 41, 41);
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 640px;
+    padding-right: 540px;
+  }
+
 }
 
 @media screen and (max-width: 330px) {
