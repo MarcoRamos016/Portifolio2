@@ -71,24 +71,24 @@
     margin: 0%;
   }
 
-  .redes-sociais img {
-    width: 45px;
+  .redes-sociais svg {
+    width: 80px;
     transition: 1s;
-    margin-top: -70%;
+    margin-top: -60%;
 
   }
 
-  .instagramcolor:hover {
+  .instagram-color:hover {
     filter: none;
     transform: none;
   }
 
-  .youtubecolor:hover {
+  .linkedin-color:hover {
     filter: none;
     transform: none;
   }
 
-  .githubcolor:hover {
+  .github-color:hover {
     filter: none;
     transform: none;
   }
