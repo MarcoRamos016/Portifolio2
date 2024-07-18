@@ -131,14 +131,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 1000px;
     position: relative;
     display: block;
-    margin: auto;
     inset: 0px;
     padding-bottom: 20px;
     border-bottom: 1px solid rgb(129, 129, 129);
     border-radius: 12px;
+    max-width: 100%;
   }
 
   #imagem li {
@@ -175,7 +174,7 @@
 
   .carousel-inner1 img {
     width: 1000px;
-    height: 800px;
+    height: 750px;
     max-width: 100%;
 
 
@@ -344,6 +343,40 @@
   }
 
 
+  #right {
+    display: none;
+    width: 0;
+    font-size: 0;
+  }
+
+  #left {
+    display: none;
+    width: 0;
+    font-size: 0;
+  }
+
+  .carrosel-curso img {
+    height: 40%;
+    width: calc(100% / 1);
+  }
+
+  .wrapper .carrosel-curso {
+    margin-top: 0;
+  }
+
+  .cursos {
+    flex-direction: column;
+
+  }
+
+  .cursos h1 {
+    display: flex;
+    text-align: center;
+  }
+
+  .wrapper .carrosel-curso {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 540px) {

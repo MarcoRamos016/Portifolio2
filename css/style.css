@@ -504,12 +504,6 @@ footer p {
 }
 
 
-
-
-
-
-
-
 .wrapper i {
   top: 50%;
   height: 70px;
@@ -535,14 +529,14 @@ footer p {
 }
 
 .wrapper i:first-child {
-  margin-top: 4350px;
-  left: 15%;
+  margin-top: 3450px;
+  left: 50%;
   display: none;
 }
 
 .wrapper i:last-child {
-  right: 15%;
-  margin-top: 4350px;
+  right: 10%;
+  margin-top: 3450px;
 
 }
 
@@ -554,8 +548,7 @@ footer p {
   scroll-behavior: smooth;
   max-width: 80%;
   margin-left: 10%;
-  box-shadow: 10px 0px 50px 10px black;
-  margin-top: 400px
+  margin-top: 250px;
 }
 
 .carrosel-curso.dragging {
@@ -570,13 +563,14 @@ footer p {
 }
 
 .carrosel-curso img {
-  height: 1040px;
+  height: 740px;
   object-fit: cover;
   user-select: none;
   margin-left: 14px;
   width: calc(100% / 1);
   border-radius: 5px;
   border: 1px solid rgb(0, 0, 0);
+
 }
 
 .carrosel-curso img:first-child {
@@ -592,7 +586,6 @@ footer p {
   margin-top: 200px;
   padding: 20px 0px;
   padding-bottom: 200px;
-  flex-direction: column;
   box-shadow: 10px 0px 50px 10px black;
   border-radius: 20px;
   border-bottom: 1px solid rgb(129, 129, 129);
@@ -600,22 +593,19 @@ footer p {
 
 .cursos h1 {
   color: rgb(0, 255, 34);
-  flex-direction: column;
   font-size: 120px;
+  font-weight: 800;
   text-align: center;
-  margin-bottom: 50px;
-  background-color: #0f0f0f;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-radius: 8px;
-  box-shadow: 5px 0px 50px 5px black;
+  margin-bottom: 520px;
+  position: absolute;
+  left: 40%;
 }
 
 .cursos p {
   color: #ffffff;
   font-size: 60px;
-  padding: 200px 320px 0px;
-
+  padding: 100px 320px 0px;
+  margin-top: 150px;
 }
 
 
