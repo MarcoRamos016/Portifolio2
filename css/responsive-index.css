@@ -26,12 +26,9 @@
     display: none;
   }
 
-  .center,
+
   #curriculo {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    text-align: center;
+    margin-top: 100px;
   }
 
 
@@ -113,7 +110,7 @@
   }
 
   header {
-    margin-top: 15%;
+    margin-top: 0%;
   }
 
   #imagem img {
@@ -223,13 +220,10 @@
 
 
   .biografia-container {
-    position: relative;
     margin-top: 7%;
     max-width: 100%;
+    width: 100%;
     display: flex;
-    margin-left: 15%;
-    margin-right: 10%;
-
   }
 
 
@@ -377,6 +371,11 @@
   .wrapper .carrosel-curso {
     margin-top: 0;
   }
+
+  .carousel-item img {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -495,7 +494,6 @@
   }
 
   .card-bio {
-    left: 45px;
     position: relative;
   }
 
