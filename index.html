@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="white-mode.css">
     <link rel="stylesheet" href="responsive-index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 
 <body>
@@ -174,8 +175,18 @@
     <div class="Container-perfil">
         <header>
             <div class="center">
-                <img src="./img/Perfil.jpg">
+                <img id="myImg" src="./img/Perfil.jpg" alt="" style="width:200px; max-width:300px">
+
+                <div id="myModal" class="modal">
+
+                    <span class="close">&times;</span>
+
+                    <img class="modal-content" id="img01">
+
+                    <div id="caption"></div>
+                </div>
             </div>
+
         </header>
         <div id="curriculo">
             <a href="./arquivos/Currículo Marco Antonio Santana Ramos.pdf" download="">Baixar Currículo</a>
@@ -274,6 +285,25 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="cursos">
+            <h1>Cursos</h1>
+            <p>Aqui esta alguns cursos que eu assisti</p>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <div class="carrosel-curso">
+                    <a href="https://youtube.com/playlist?list=PLnex8IkmReXxZEXje06kW1uCwm5iC8M_Z&si=wXILjMhX83n9NWbO"
+                        target="_blank">
+                        <img src="https://i.ytimg.com/vi/E1Ww5Y1EnWQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDdtypEY2kYSanPUhGeckhAHPLmDw"
+                            alt=""></a>
+                    <img src="/img/foto3.jpg" alt="">
+                    <img src="/img/foto4.jpg" alt="">
+                </div>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+
     </div>
 
     <div class="whatsapp-icon">
@@ -305,9 +335,11 @@
         </a>
 
     </div>
-    <br><br><br><br><br>
 
-
+    <br><br><br> <br><br><br> <br><br><br>
+    <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+    <script src="/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="white-mode.js"></script>
     <script src="dropdown.js"></script>
 </body>

@@ -26,6 +26,15 @@
     display: none;
   }
 
+  .center,
+  #curriculo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+
+
 }
 
 @media screen and (max-width: 768px) {
