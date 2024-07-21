@@ -416,27 +416,62 @@
 
 @media screen and (max-width: 540px) {
 
+  html,
+  body {
+    zoom: 58%;
+  }
 
+
+  .nav-list {
+    padding-top: 150px;
+  }
 
   .nav-list a {
-    margin: 6px;
+    margin: 36px;
     display: block;
     width: 50vw;
     font-size: 36px;
+
+  }
+
+
+  .redes-sociais svg {
+    width: 120px;
+    transition: 1s;
+    margin-top: -60%;
+    transform: none;
+  }
+
+
+  .redes-sociais {
+    margin-top: 40px;
+
+  }
+
+  .fivicon img {
+    margin-top: 30px;
+    width: 80px;
   }
 
   #contato a {
     font-size: 30px;
   }
 
+  .mobile-menu-icon {
+    margin-top: 5px;
+  }
 
+  .mobile-menu-icon img {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 @media screen and (max-width: 520px) {
 
   html,
   body {
-    zoom: 60%;
+    zoom: 56%;
   }
 
 }
@@ -445,7 +480,7 @@
 
   html,
   body {
-    zoom: 58%;
+    zoom: 53%;
   }
 
   .nav-list button {
@@ -471,7 +506,7 @@
 
   html,
   body {
-    zoom: 54%;
+    zoom: 50%;
 
   }
 
@@ -497,7 +532,7 @@
 
   html,
   body {
-    zoom: 52%;
+    zoom: 48%;
 
   }
 
@@ -508,7 +543,7 @@
 
   html,
   body {
-    zoom: 45%;
+    zoom: 42%;
   }
 
   .whatsapp-icon {

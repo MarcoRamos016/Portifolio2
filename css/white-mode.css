@@ -43,8 +43,8 @@ body {
 /* celular version */
 
 .trilho1 {
-    width: 20px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: rgb(85, 83, 83);
     border-radius: 150px;
     position: relative;
@@ -54,8 +54,8 @@ body {
 }
 
 .trilho1 .indicador1 {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: black;
     border-radius: 50%;
     transform: scale(.9);
@@ -77,6 +77,21 @@ body {
 
 .trilho1 {
     max-width: 9%;
+}
+
+
+@media screen and (max-width: 540px) {
+    .trilho1 {
+        width: 60px;
+        height: 60px;
+        background-color: rgb(85, 83, 83);
+        border-radius: 150px;
+        position: relative;
+        cursor: pointer;
+        margin-top: 35px;
+
+    }
+
 }
 
 /* ---------------------------------------------------------------------- */
@@ -159,5 +174,6 @@ body.white {
             display: none;
         }
     }
+
 
 }
