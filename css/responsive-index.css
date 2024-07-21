@@ -395,6 +395,7 @@
     width: 100%;
   }
 
+
   .title-hab h1 {
     margin-top: 40%;
   }
@@ -402,7 +403,6 @@
   section {
     width: 100%;
   }
-
 
 
 }
@@ -429,6 +429,8 @@
     width: 50vw;
     font-size: 36px;
   }
+
+
 
 }
 
@@ -461,6 +463,8 @@
   .trilho1.white .indicador1 {
     left: 70px;
   }
+
+
 
 
 }

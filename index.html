@@ -42,19 +42,22 @@
         <nav>
             <ul class="navcontainer">
                 <div class="fivicon">
-                    <h1>&lt;/MarcoRamos&gt;</h1>
+                    <a href="#inicio">
+                        <h1>&lt;/MarcoRamos&gt;</h1>
+                    </a>
                     <img src="./IconSite/ms-icon-144x144.png" alt="">
+
                 </div>
 
                 <div class="nav-list">
                     <li>
                         <button>
-                            <a href="navbar/Sobremim.html">Sobre mim</a>
+                            <a href="#sobre-mim">Sobre mim</a>
                         </button>
                     </li>
                     <li>
                         <button>
-                            <a href="navbar/cursos.html">Cursos</a>
+                            <a href="#cursos">Cursos</a>
                         </button>
                     </li>
                     <li>
@@ -62,10 +65,16 @@
                             <a href="navbar/projetos.html">Projetos</a>
                         </button>
                     </li>
+                    <li>
+                        <button>
+                            <a href="#habilidades">Habilidades</a>
+                        </button>
+                    </li>
                     <div class="mobile-menu">
                         <ul>
-                            <li><a class="nav-item" href="/navbar/Sobremim.html">Sobre mim</a></li>
-                            <li><a class="nav-item" href="/navbar/cursos.html">Cursos</a></li>
+                            <li><a class="nav-item" href="#sobre-mim">Sobre mim</a></li>
+                            <li><a class="nav-item" href="#cursos">Cursos</a></li>
+                            <li><a class="nav-item" href="#habilidades">Habilidades</a></li>
                             <li><a class="nav-item" href="/navbar/projetos.html">Projetos</a></li>
                         </ul>
                     </div>
@@ -173,7 +182,7 @@
 
     </div>
     <main>
-        <div class="Container-perfil">
+        <div class="Container-perfil" id="inicio">
             <header>
                 <div class="center">
                     <img id="myImg" src="./img/Perfil.jpg" alt="" style="width:200px; max-width:300px">
@@ -225,7 +234,7 @@
                             Marcoantoniosantanaramos@gmail.com</a></p>
                 </div>
             </div>
-            <div id="biografia" class="biografia-container">
+            <div class="biografia-container">
 
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -264,8 +273,8 @@
                     </button>
                 </div>
 
-                <div class="card-bio">
-                    <h1>Biografia</h1>
+                <div id="sobre-mim" class="card-bio">
+                    <h1>Sobre mim</h1>
                     <p>Olá, tenho 17 anos, moro na cidade de Dobrada, cidade do interior de São Paulo.
                         <br> Atualmente estou cursando
                         Desenvolvimento
@@ -289,7 +298,7 @@
             </div>
 
 
-            <div class="cursos">
+            <div class="cursos" id="cursos">
                 <h1>Cursos</h1>
                 <p>Aqui esta alguns cursos que eu assisti</p>
                 <div class="wrapper">
@@ -309,7 +318,7 @@
                 <h1>HABILIDADES</h1>
             </div>
 
-            <div class="cont-habilidades">
+            <div class="cont-habilidades" id="habilidades">
 
                 <div class="cont-hab">
 

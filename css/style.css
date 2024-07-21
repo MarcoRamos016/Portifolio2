@@ -106,7 +106,7 @@ html {
 }
 
 .nav-list a {
-  margin: 50px;
+  margin: 0px;
 
 }
 
@@ -360,7 +360,7 @@ footer p {
 
 .biografia-container {
   position: relative;
-  margin-top: 7%;
+  margin-top: 20%;
   max-width: 100%;
   display: flex;
 
@@ -604,7 +604,7 @@ footer p {
   max-width: 100%;
   width: 100%;
   display: flex;
-  margin-top: 200px;
+  margin-top: 20%;
   padding: 20px 0px;
   padding-bottom: 200px;
   box-shadow: 10px 0px 50px 10px black;
@@ -635,6 +635,7 @@ footer p {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .cont-habilidades {
@@ -648,7 +649,7 @@ footer p {
 
 .title-hab h1 {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 20%;
   font-weight: 900;
   font-size: 100px;
   margin-bottom: 5%;
@@ -695,11 +696,6 @@ section p {
   width: 350px;
   height: 300px;
 
-}
-
-.bootstrap-img img {
-  background: none;
-  background-color: none;
 }
 
 
