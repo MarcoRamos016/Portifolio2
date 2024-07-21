@@ -139,4 +139,14 @@ body.white {
         color: white;
     }
 
+
+    .fivicon h1 {
+        font-size: 50px;
+        font-weight: 900;
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0) 52.5%, rgb(5, 255, 5) 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline;
+    }
+
 }

@@ -48,7 +48,7 @@ html {
 .fivicon h1 {
   font-size: 50px;
   font-weight: 900;
-  background: -webkit-linear-gradient(left, rgb(255, 255, 255) 56.5%, rgb(5, 255, 5) 50%);
+  background: -webkit-linear-gradient(left, rgb(255, 255, 255) 52.5%, rgb(5, 255, 5) 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline;
@@ -65,8 +65,10 @@ html {
 }
 
 #contato>a {
-  font-size: 40px;
+  font-size: 50px;
+  color: #000;
 }
+
 
 .container-nav {
   float: left;
@@ -74,7 +76,7 @@ html {
 
 #contato>p {
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   padding-left: 100px;
   font-weight: 800;
   margin-top: 30px;
@@ -144,8 +146,12 @@ button {
   width: 150px;
 }
 
-a:hover {
+#contato a {
   color: rgb(25, 255, 4);
+}
+
+#contato a:hover {
+  color: rgb(38, 117, 31);
   transform: scale(1.4);
 }
 
@@ -154,8 +160,8 @@ a:hover {
   margin-top: 3%;
 }
 
-h1 {
-  font-size: 76px;
+.geralcont h1 {
+  font-size: 96px;
   padding: 0px 0px 0px 40px;
   margin: 10px;
   font-weight: 700;
@@ -163,7 +169,7 @@ h1 {
 
 h2 {
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 60px;
   padding: 0px 0px 0px 60px;
   margin: 35px;
 
@@ -427,7 +433,7 @@ footer p {
 }
 
 .span-txt {
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 500;
 
 }
@@ -645,6 +651,8 @@ footer p {
   background-color: #6e676720;
   padding-bottom: 150px;
   border-radius: 10px;
+  border: 1px rgb(20, 20, 20) solid;
+  box-shadow: rgb(0, 0, 0) 30px 0px 70px 10px;
 }
 
 .title-hab h1 {
@@ -653,7 +661,9 @@ footer p {
   font-weight: 900;
   font-size: 100px;
   margin-bottom: 5%;
+  text-shadow: 1px 10px 5px rgb(0, 0, 0);
 }
+
 
 section {
   margin: 120px 40px;
