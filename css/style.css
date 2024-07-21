@@ -150,6 +150,7 @@ button {
   color: rgb(25, 255, 4);
 }
 
+
 #contato a:hover {
   color: rgb(38, 117, 31);
   transform: scale(1.4);
@@ -651,7 +652,7 @@ footer p {
   background-color: #6e676720;
   padding-bottom: 150px;
   border-radius: 10px;
-  border: 1px rgb(20, 20, 20) solid;
+  border: 1px black solid;
   box-shadow: rgb(0, 0, 0) 30px 0px 70px 10px;
 }
 

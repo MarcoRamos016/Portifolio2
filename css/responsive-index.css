@@ -60,6 +60,12 @@
     width: 50vw;
   }
 
+
+  #contato a {
+    font-size: 40px;
+  }
+
+
   .nav-list {
     padding-top: 0;
     padding-bottom: 0;
@@ -431,6 +437,10 @@
     font-size: 36px;
   }
 
+  #contato a {
+    font-size: 30px;
+  }
+
 
 
 }
@@ -458,6 +468,10 @@
     left: 170px;
     position: fixed;
 
+  }
+
+  #contato a {
+    font-size: 35px;
   }
 
 
@@ -534,4 +548,9 @@
   .trilho1.white .indicador1 {
     left: 50px;
   }
+
+  #contato a {
+    font-size: 20px;
+  }
+
 }
