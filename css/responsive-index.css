@@ -59,7 +59,6 @@
     width: 50vw;
   }
 
-
   #contato a {
     font-size: 40px;
   }
@@ -134,7 +133,7 @@
   }
 
   header {
-    margin-top: 0%;
+    margin-top: 10%;
   }
 
   #imagem img {
@@ -155,7 +154,8 @@
     position: relative;
     display: block;
     inset: 0px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     border-bottom: 1px solid rgb(129, 129, 129);
     border-radius: 12px;
     max-width: 100%;
@@ -195,11 +195,11 @@
   }
 
   .carousel-inner1 img {
-    width: 1000px;
-    height: 1050px;
+    width: 800px;
+    height: 1200px;
     max-width: 100%;
     margin-top: 50px;
-
+    border-radius: 10px;
   }
 
 
@@ -411,7 +411,9 @@
     width: 100%;
   }
 
-
+  #curriculo a {
+    font-size: 50px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -454,7 +456,7 @@
   }
 
   #contato a {
-    font-size: 30px;
+    font-size: 46px;
   }
 
   .mobile-menu-icon {
@@ -474,6 +476,10 @@
     zoom: 56%;
   }
 
+  .fivicon img {
+    margin-top: 30px;
+    width: 80px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -494,10 +500,13 @@
 
 
   #contato a {
-    font-size: 35px;
+    font-size: 40px;
   }
 
-
+  .fivicon img {
+    margin-top: 30px;
+    width: 80px;
+  }
 
 
 }
@@ -525,7 +534,10 @@
 
   }
 
-
+  .fivicon img {
+    margin-top: 30px;
+    width: 80px;
+  }
 }
 
 @media screen and (max-width: 324px) {
@@ -536,6 +548,10 @@
 
   }
 
+
+  #contato a {
+    font-size: 45px;
+  }
 }
 
 
@@ -565,7 +581,7 @@
   }
 
   #contato a {
-    font-size: 20px;
+    font-size: 45px;
   }
 
 
