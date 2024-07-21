@@ -50,7 +50,7 @@
 
   html,
   body {
-    zoom: 65%;
+    zoom: 69%;
   }
 
   .nav-list a {
@@ -90,11 +90,10 @@
   }
 
   .fivicon img {
-    width: 170px;
+    width: 80px;
     height: 80px;
     left: 10px;
     display: flex;
-    padding-right: 90px;
   }
 
   .container {
@@ -317,7 +316,7 @@
   .mobile-menu .nav-item {
     padding-top: 20%;
     display: block;
-
+    text-align: center;
 
   }
 
@@ -437,18 +436,22 @@
 }
 
 @media screen and (max-width: 520px) {
-  .mobile-menu-icon {
-    left: 0px;
-    position: relative;
-    padding-right: 400px;
+
+  html,
+  body {
+    zoom: 60%;
   }
+
+
+
+
 }
 
 @media screen and (max-width: 400px) {
 
   html,
   body {
-    zoom: 50%;
+    zoom: 48%;
   }
 
   .nav-list button {
@@ -465,9 +468,7 @@
     font-size: 35px;
   }
 
-  .mobile-menu-icon {
-    margin-right: 120px;
-  }
+
 
 
 }
@@ -476,7 +477,7 @@
 
   html,
   body {
-    zoom: 52%;
+    zoom: 50%;
 
   }
 
@@ -495,10 +496,6 @@
 
   }
 
-  .mobile-menu-icon {
-    margin-right: 110px;
-  }
-
 
 }
 
@@ -506,7 +503,7 @@
 
   html,
   body {
-    zoom: 45%;
+    zoom: 43%;
   }
 
   .whatsapp-icon {
