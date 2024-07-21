@@ -37,12 +37,11 @@
 
 @media screen and (max-width: 885px) {
   .fivicon h1 {
-    display: none;
-    font-size: 200px;
+    font-size: 45px;
   }
 
   .fivicon img {
-    display: flex;
+    display: none;
   }
 
 }
@@ -78,6 +77,10 @@
     width: 0px;
   }
 
+  .fivicon h1 {
+    font-size: 0px;
+    display: none;
+  }
 
 
   .fivicon {
@@ -87,9 +90,11 @@
   }
 
   .fivicon img {
-    width: 80px;
+    width: 170px;
     height: 80px;
     left: 10px;
+    display: flex;
+    padding-right: 90px;
   }
 
   .container {
@@ -123,7 +128,7 @@
   }
 
   .redes-sociais {
-    margin-left: 55px;
+    margin-left: 15px;
     position: fixed;
   }
 
@@ -230,7 +235,7 @@
   .redes-sociais {
     margin-right: 160px;
     position: absolute;
-
+    max-width: 100%;
   }
 
   .carousel-control-prev1 {
@@ -268,8 +273,8 @@
   .trilho1 {
     display: flex;
     max-width: 19%;
-    width: 10%;
-    left: 270px;
+    width: 9%;
+    right: 30px;
     position: fixed;
 
   }
@@ -280,7 +285,7 @@
 
 
   .trilho1.white .indicador1 {
-    left: 90px;
+    right: 0px;
   }
 
   .nav-item {
@@ -290,8 +295,7 @@
   .mobile-menu-icon {
     display: block;
     position: absolute;
-    right: 100px;
-
+    left: 150px;
   }
 
   .mobile-menu-icon button {
@@ -417,18 +421,6 @@
 @media screen and (max-width: 540px) {
 
 
-  .trilho1 {
-    display: flex;
-    max-width: 19%;
-    width: 12%;
-    left: 170px;
-    position: fixed;
-
-  }
-
-  .trilho1.white .indicador1 {
-    left: 80px;
-  }
 
   .nav-list a {
     margin: 6px;
@@ -442,7 +434,14 @@
   }
 
 
+}
 
+@media screen and (max-width: 520px) {
+  .mobile-menu-icon {
+    left: 0px;
+    position: relative;
+    padding-right: 400px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -461,25 +460,14 @@
   }
 
 
-  .trilho1 {
-    display: flex;
-    max-width: 19%;
-    width: 10%;
-    left: 170px;
-    position: fixed;
-
-  }
 
   #contato a {
     font-size: 35px;
   }
 
-
-  .trilho1.white .indicador1 {
-    left: 70px;
+  .mobile-menu-icon {
+    margin-right: 120px;
   }
-
-
 
 
 }
@@ -507,14 +495,8 @@
 
   }
 
-
-  .trilho1 {
-    display: flex;
-    max-width: 19%;
-    width: 10%;
-    left: 170px;
-    position: fixed;
-
+  .mobile-menu-icon {
+    margin-right: 110px;
   }
 
 
@@ -545,12 +527,11 @@
     position: relative;
   }
 
-  .trilho1.white .indicador1 {
-    left: 50px;
-  }
-
   #contato a {
     font-size: 20px;
   }
 
+  .mobile-menu-icon {
+    margin-right: 120px;
+  }
 }
