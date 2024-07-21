@@ -445,7 +445,7 @@
 
   html,
   body {
-    zoom: 48%;
+    zoom: 58%;
   }
 
   .nav-list button {
@@ -467,11 +467,11 @@
 
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 360px) {
 
   html,
   body {
-    zoom: 50%;
+    zoom: 54%;
 
   }
 
@@ -493,11 +493,22 @@
 
 }
 
-@media screen and (max-width: 260px) {
+@media screen and (max-width: 324px) {
 
   html,
   body {
-    zoom: 43%;
+    zoom: 52%;
+
+  }
+
+}
+
+
+@media screen and (max-width: 290px) {
+
+  html,
+  body {
+    zoom: 45%;
   }
 
   .whatsapp-icon {
