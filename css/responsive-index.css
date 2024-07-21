@@ -34,6 +34,19 @@
 
 }
 
+
+@media screen and (max-width: 885px) {
+  .fivicon h1 {
+    display: none;
+    font-size: 200px;
+  }
+
+  .fivicon img {
+    display: flex;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
 
   html,
@@ -81,7 +94,11 @@
     width: 80px;
     transition: 1s;
     margin-top: -60%;
+    transform: none;
+  }
 
+  .redes-sociais svg:hover {
+    transform: scale(1.0);
   }
 
   .instagram-color:hover {
@@ -206,6 +223,7 @@
   .redes-sociais {
     margin-right: 160px;
     position: absolute;
+
   }
 
   .carousel-control-prev1 {

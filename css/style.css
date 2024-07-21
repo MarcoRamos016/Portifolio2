@@ -43,9 +43,21 @@ html {
   border: 1px solid #23dd23;
 }
 
+
+
+.fivicon h1 {
+  font-size: 50px;
+  font-weight: 900;
+  background: -webkit-linear-gradient(left, rgb(255, 255, 255) 56.5%, rgb(5, 255, 5) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+}
+
 .fivicon>img {
   width: 70px;
   height: 70px;
+  display: none;
 }
 
 #contato {
@@ -288,12 +300,12 @@ footer p {
   margin: 45px;
 }
 
-.redes-sociais img {
-  transition: 400ms;
+.redes-sociais svg {
+  transition: 500ms;
 }
 
-.redes-sociais img:hover {
-  transform: scale(1.4);
+.redes-sociais svg:hover {
+  transform: scale(1.3);
 }
 
 .custom-shape-divider-bottom-1711840253 {
@@ -615,6 +627,79 @@ footer p {
   font-size: 100px;
   padding: 100px 100px 0px;
   margin-top: 150px;
+}
+
+.cont-hab {
+  margin-top: 5%;
+  max-width: 100%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cont-habilidades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6e676720;
+  padding-bottom: 150px;
+  border-radius: 10px;
+}
+
+.title-hab h1 {
+  text-align: center;
+  margin-top: 10%;
+  font-weight: 900;
+  font-size: 100px;
+  margin-bottom: 5%;
+}
+
+section {
+  margin: 120px 40px;
+  max-width: 100%;
+  width: 29%;
+  transition: 500ms;
+  text-align: center;
+
+}
+
+section:hover {
+  transform: scale(1.2);
+}
+
+section p {
+  font-size: 30px;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  margin: 0px 100px;
+}
+
+.card-hab {
+  display: contents;
+  text-align: center;
+
+}
+
+
+
+.card-hab img {
+  width: 350px;
+  height: 300px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.card-hab svg {
+  width: 350px;
+  height: 300px;
+
+}
+
+.bootstrap-img img {
+  background: none;
+  background-color: none;
 }
 
 
