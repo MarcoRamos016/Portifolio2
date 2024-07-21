@@ -126,14 +126,11 @@
     transform: none;
   }
 
-  .redes-sociais {
-    margin-left: 15px;
-    position: fixed;
-  }
+
 
   .espaço {
     display: flex;
-    margin-left: 100px;
+    margin-right: 100px;
   }
 
   header {
@@ -228,7 +225,7 @@
   }
 
   #espaço {
-    margin-left: 50px;
+    margin-left: 30px;
   }
 
   .redes-sociais {
@@ -442,9 +439,6 @@
     zoom: 60%;
   }
 
-
-
-
 }
 
 @media screen and (max-width: 400px) {
@@ -528,7 +522,5 @@
     font-size: 20px;
   }
 
-  .mobile-menu-icon {
-    margin-right: 120px;
-  }
+
 }
