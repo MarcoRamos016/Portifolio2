@@ -719,6 +719,14 @@ section p {
 
 }
 
+.card-hab svg {
+  width: 350px;
+  height: 300px;
+
+
+}
+
+
 .card-hab img {
   width: 350px;
   height: 300px;
@@ -742,6 +750,20 @@ section p {
 
 .social-media svg {
   width: 140px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 600ms;
+  transform: translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transition: all 600ms;
+  transform: translateX(0%);
 }
 
 #myImg {
