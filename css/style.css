@@ -719,8 +719,6 @@ section p {
 
 }
 
-
-
 .card-hab img {
   width: 350px;
   height: 300px;
@@ -729,13 +727,22 @@ section p {
 
 }
 
-.card-hab svg {
-  width: 350px;
-  height: 300px;
-
+.social-media {
+  margin-left: 250px;
+  margin-top: 50px;
 }
 
+.social-media a {
+  margin-left: 50px;
+}
 
+.social-media svg:hover {
+  transform: scale(1.2);
+}
+
+.social-media svg {
+  width: 140px;
+}
 
 #myImg {
   cursor: pointer;
