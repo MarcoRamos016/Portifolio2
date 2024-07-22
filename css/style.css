@@ -30,17 +30,41 @@ html {
   font-size: 35px;
   list-style-type: o;
   font-weight: 600;
-  background-color: #00000030;
-  border: 2px solid white;
-  box-shadow: 1px 1px 100px 1px rgb(0, 0, 0);
-  border-radius: 11px;
+  background-color: #1a2e05;
+  border: 1px solid rgb(194, 188, 188);
+  box-shadow: 1px 10px 100px 1px rgb(0, 0, 0);
+  border-radius: 8px;
   transition: 500ms;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 600ms;
+}
+
+.pracima {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  right: 40px;
+  bottom: 350px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+
+.pracima img {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  margin-left: 3px;
+  margin-top: 3px;
 }
 
 #curriculo a:hover {
   color: #c1b9b9;
-  transform: none;
+  transform: scale(1.1);
   border: 1px solid #23dd23;
+  background-color: #241d1d;
 }
 
 
@@ -196,7 +220,6 @@ header {
 
 .center {
   text-align: center;
-  margin-top: 15%;
 }
 
 a {
@@ -225,6 +248,7 @@ a {
   padding: 0px 0px;
   z-index: 0;
   margin-top: 50px;
+  margin-bottom: 10%;
 }
 
 #imagem {
@@ -508,7 +532,6 @@ footer p {
   margin-top: 200px;
   background-color: rgb(23, 21, 21);
   width: 100%;
-  padding-top: 160px;
   padding-bottom: 160px;
   border-radius: 20px;
   border-bottom: 1px solid rgb(129, 129, 129);
@@ -576,8 +599,8 @@ footer p {
   overflow: hidden;
   white-space: nowrap;
   scroll-behavior: smooth;
-  max-width: 60%;
-  margin-left: 30%;
+  max-width: 160vh;
+  margin-left: 25%;
   max-height: 80%;
 }
 
@@ -643,7 +666,7 @@ footer p {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
-
+  margin: 0 auto;
 }
 
 .cont-habilidades {
@@ -655,6 +678,7 @@ footer p {
   border-radius: 10px;
   border: 1px black solid;
   box-shadow: rgb(0, 0, 0) 30px 0px 70px 10px;
+
 }
 
 .title-hab h1 {
@@ -673,6 +697,7 @@ section {
   width: 29%;
   transition: 500ms;
   text-align: center;
+  flex: 1 1 600px;
 
 }
 
@@ -718,13 +743,14 @@ section p {
   width: 310px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid rgb(25, 255, 4);
+  border: 3px solid rgb(25, 255, 4);
   margin-top: 90%;
   box-shadow: 1px 30px 70px 0px forestgreen;
 }
 
 #myImg:hover {
   opacity: 0.7;
+
 }
 
 .modal {
