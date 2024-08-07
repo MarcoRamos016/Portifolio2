@@ -1,3 +1,11 @@
+
+
+@media screen and (max-width: 1920px) {
+.cont-hab {
+  max-width: 100%;
+  width: 75%;
+}
+} 
 @media screen and (max-width: 1120px) {
 
   hmtl,
