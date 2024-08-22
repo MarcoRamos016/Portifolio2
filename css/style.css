@@ -5,16 +5,13 @@ html {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   height: 100vh;
-
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
-
 
 #curriculo {
   margin-top: 3%;
@@ -22,7 +19,6 @@ html {
   justify-content: center;
   display: flex;
   position: static;
-
 }
 
 #curriculo a {
@@ -64,18 +60,20 @@ html {
   background-color: #241d1d;
 }
 
-
-
 .fivicon h1 {
   font-size: 50px;
   font-weight: 900;
-  background: -webkit-linear-gradient(left, rgb(255, 255, 255) 52.5%, rgb(5, 255, 5) 50%);
+  background: -webkit-linear-gradient(
+    left,
+    rgb(255, 255, 255) 52.5%,
+    rgb(5, 255, 5) 50%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline;
 }
 
-.fivicon>img {
+.fivicon > img {
   width: 70px;
   height: 70px;
   display: none;
@@ -85,17 +83,16 @@ html {
   margin-top: 40px;
 }
 
-#contato>a {
+#contato > a {
   font-size: 50px;
   color: #000;
 }
-
 
 .container-nav {
   float: left;
 }
 
-#contato>p {
+#contato > p {
   color: white;
   font-size: 50px;
   padding-left: 100px;
@@ -130,15 +127,13 @@ html {
 
 .nav-list a {
   margin: 0px;
-
 }
 
-button>a {
+button > a {
   font-size: 40px;
   color: rgb(255, 255, 255);
   text-decoration: none;
   position: relative;
-
 }
 
 button:hover {
@@ -171,8 +166,6 @@ button {
   color: rgb(25, 255, 4);
 }
 
-
-
 #contato a:hover {
   color: rgb(38, 117, 31);
   transform: scale(1.4);
@@ -195,7 +188,6 @@ h2 {
   font-size: 60px;
   padding: 0px 0px 0px 60px;
   margin: 35px;
-
 }
 
 /* header div img {
@@ -345,7 +337,6 @@ footer p {
   overflow: hidden;
   line-height: 0;
   z-index: 2;
-
 }
 
 .custom-shape-divider-bottom-1711840253 svg {
@@ -360,14 +351,14 @@ footer p {
   fill: #ffffff;
 }
 
-.card-bio>p {
+.card-bio > p {
   font-size: 4rem;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
 
-.card-bio>h1 {
+.card-bio > h1 {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -392,26 +383,20 @@ footer p {
   margin-top: 20%;
   max-width: 100%;
   display: flex;
-
-
 }
-
 
 .biografia-container img {
   box-shadow: 0px 0px 30px 10px rgb(0, 0, 0);
-
 }
 
 .carousel-inner {
   height: 1000px;
   width: 1000px;
   border-radius: 20px 0px 0px 20px;
-
 }
 
 .carousel-inner-responsive {
   display: none;
-
 }
 
 .slide1 {
@@ -421,9 +406,7 @@ footer p {
 
 .carousel-control-prev {
   margin-left: 20px;
-
 }
-
 
 .whatsapp-icon {
   position: fixed;
@@ -458,7 +441,6 @@ footer p {
 .span-txt {
   font-size: 60px;
   font-weight: 500;
-
 }
 
 .span-txt {
@@ -472,7 +454,7 @@ footer p {
   border-left: 2px solid forestgreen;
   right: -10px;
   opacity: 1;
-  animation: cursor .8s infinite, digita 30s steps(15) infinite;
+  animation: cursor 0.8s infinite, digita 30s steps(15) infinite;
   width: calc(100% + 10px);
   background-color: rgb(23, 21, 21);
 }
@@ -484,7 +466,6 @@ footer p {
 }
 
 @keyframes digita {
-
   10%,
   15%,
   30%,
@@ -518,7 +499,6 @@ footer p {
 }
 
 @keyframes palavra-animada {
-
   0%,
   100% {
     content: "Front-end";
@@ -541,9 +521,7 @@ footer p {
 
 .mobile-menu-icon {
   display: none;
-
 }
-
 
 .mobile-menu {
   display: none;
@@ -558,7 +536,7 @@ footer p {
   top: 50%;
   height: 70px;
   width: 70px;
-  color: #343F4F;
+  color: #343f4f;
   cursor: pointer;
   font-size: 1.45rem;
   position: absolute;
@@ -587,7 +565,6 @@ footer p {
 .wrapper i:last-child {
   right: 8%;
   margin-top: 3300px;
-
 }
 
 .wrapper .carrosel-curso {
@@ -604,12 +581,10 @@ footer p {
 .carrosel-curso.dragging {
   cursor: grab;
   scroll-behavior: auto;
-
 }
 
 .carrosel-curso.dragging img {
   pointer-events: none;
-
 }
 
 .carrosel-curso img {
@@ -619,12 +594,10 @@ footer p {
   width: calc(100% / 1);
   border-radius: 5px;
   border: 1px solid rgb(0, 0, 0);
-
 }
 
 .carrosel-curso img:first-child {
   margin-left: 0px;
-
 }
 
 .cursos {
@@ -659,7 +632,7 @@ footer p {
 
 .cont-hab {
   margin-top: 5%;
-  max-width: 100%;
+  max-width: 90%;
   width: 85%;
   display: flex;
   flex-wrap: wrap;
@@ -675,7 +648,6 @@ footer p {
   border-radius: 10px;
   border: 1px black solid;
   box-shadow: rgb(0, 0, 0) 30px 0px 70px 10px;
-
 }
 
 .title-hab h1 {
@@ -687,15 +659,13 @@ footer p {
   text-shadow: 1px 10px 5px rgb(0, 0, 0);
 }
 
-
 section {
   margin: 120px 40px;
   max-width: 100%;
-  width: 29%;
+  width: 85%;
   transition: 500ms;
   text-align: center;
   flex: 1 1 600px;
-
 }
 
 section:hover {
@@ -713,23 +683,18 @@ section p {
 .card-hab {
   display: contents;
   text-align: center;
-
 }
 
 .card-hab svg {
   width: 350px;
   height: 300px;
-
-
 }
-
 
 .card-hab img {
   width: 350px;
   height: 300px;
   margin-bottom: 20px;
   text-align: center;
-
 }
 
 .social-media {
@@ -776,7 +741,6 @@ section p {
 
 #myImg:hover {
   opacity: 0.7;
-
 }
 
 .modal {
@@ -821,11 +785,11 @@ section p {
 
 @keyframes zoom {
   from {
-    transform: scale(0)
+    transform: scale(0);
   }
 
   to {
-    transform: scale(1)
+    transform: scale(1);
   }
 }
 

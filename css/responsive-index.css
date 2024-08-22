@@ -1,13 +1,10 @@
-
-
 @media screen and (max-width: 1920px) {
-.cont-hab {
-  max-width: 100%;
-  width: 75%;
+  .cont-hab {
+    max-width: 100%;
+    width: 100%;
+  }
 }
-} 
 @media screen and (max-width: 1120px) {
-
   hmtl,
   body {
     zoom: 44%;
@@ -34,14 +31,10 @@
     display: none;
   }
 
-
   #curriculo {
     margin-top: 100px;
   }
-
-
 }
-
 
 @media screen and (max-width: 885px) {
   .fivicon h1 {
@@ -51,11 +44,9 @@
   .fivicon img {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 768px) {
-
   html,
   body {
     zoom: 69%;
@@ -65,7 +56,6 @@
     margin: 5%;
     margin-top: 20%;
   }
-
 
   .pracima {
     bottom: 400px;
@@ -90,7 +80,6 @@
     font-size: 40px;
   }
 
-
   .nav-list {
     padding-top: 0;
     padding-bottom: 0;
@@ -108,11 +97,9 @@
     display: none;
   }
 
-
   .fivicon {
     margin: 0;
     padding: 0;
-
   }
 
   .fivicon img {
@@ -135,7 +122,7 @@
   }
 
   .redes-sociais svg:hover {
-    transform: scale(1.0);
+    transform: scale(1);
   }
 
   .instagram-color:hover {
@@ -152,8 +139,6 @@
     filter: none;
     transform: none;
   }
-
-
 
   .espaço {
     display: flex;
@@ -173,7 +158,6 @@
     display: flex;
   }
 
-
   .card-bio {
     border: 0;
     align-items: center;
@@ -187,7 +171,7 @@
     border-bottom: 1px solid rgb(129, 129, 129);
     border-radius: 12px;
     max-width: 100%;
-    margin-top: 20%
+    margin-top: 20%;
   }
 
   #imagem li {
@@ -208,10 +192,8 @@
     display: none;
   }
 
-
   .carousel-inner {
     display: none;
-
   }
 
   /* -------------- */
@@ -219,7 +201,6 @@
     display: block;
     box-sizing: border-box;
     inset: 0px;
-
   }
 
   .carousel-inner1 img {
@@ -230,12 +211,9 @@
     border-radius: 10px;
   }
 
-
   .nav-list button {
     display: none;
   }
-
-
 
   .nav-list {
     padding-top: 100px;
@@ -243,9 +221,7 @@
 
   .nav-list a {
     display: none;
-
   }
-
 
   .fivicon {
     left: 54px;
@@ -265,13 +241,11 @@
   .carousel-control-prev1 {
     display: none;
     margin: auto;
-
   }
 
   .carousel-control-next1 {
     display: none;
   }
-
 
   .biografia-container {
     margin-top: 7%;
@@ -280,8 +254,7 @@
     display: flex;
   }
 
-
-  .card-bio>p {
+  .card-bio > p {
     font-size: 40px;
     font-weight: 600;
   }
@@ -300,13 +273,11 @@
     width: 9%;
     right: 100px;
     position: fixed;
-
   }
 
   .indicador1 {
     position: relative;
   }
-
 
   .trilho1.white .indicador1 {
     right: 0px;
@@ -335,14 +306,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-
   }
 
   .mobile-menu .nav-item {
     padding-top: 20%;
     display: block;
     text-align: center;
-
   }
 
   .nav-item:hover {
@@ -351,14 +320,12 @@
 
   .mobile-menu li {
     list-style-type: none;
-
   }
 
   .mobile-menu {
     background-color: rgb(43, 41, 41);
     padding-bottom: 15%;
     padding-top: 60px;
-
   }
 
   .nav-list {
@@ -368,9 +335,7 @@
   .nav-list a {
     font-size: 40px;
     height: 200px;
-
   }
-
 
   .open {
     display: block;
@@ -388,7 +353,6 @@
   .navcontainer {
     align-items: normal;
   }
-
 
   #right {
     display: none;
@@ -430,7 +394,6 @@
     width: 100%;
   }
 
-
   .title-hab h1 {
     margin-top: 40%;
   }
@@ -445,12 +408,10 @@
 }
 
 @media screen and (max-width: 540px) {
-
   html,
   body {
     zoom: 58%;
   }
-
 
   .nav-list {
     padding-top: 150px;
@@ -461,9 +422,7 @@
     display: block;
     width: 50vw;
     font-size: 36px;
-
   }
-
 
   .redes-sociais svg {
     width: 120px;
@@ -472,11 +431,9 @@
     transform: none;
   }
 
-
   .redes-sociais {
     margin-top: 40px;
     padding: 0;
-
   }
 
   .fivicon img {
@@ -499,7 +456,6 @@
 }
 
 @media screen and (max-width: 520px) {
-
   html,
   body {
     zoom: 56%;
@@ -512,7 +468,6 @@
 }
 
 @media screen and (max-width: 400px) {
-
   html,
   body {
     zoom: 53%;
@@ -526,8 +481,6 @@
     display: none;
   }
 
-
-
   #contato a {
     font-size: 40px;
   }
@@ -536,31 +489,24 @@
     margin-top: 30px;
     width: 80px;
   }
-
-
 }
 
 @media screen and (max-width: 360px) {
-
   html,
   body {
     zoom: 50%;
-
   }
 
   .whatsapp-icon {
-
     bottom: 174px;
     right: 10px;
     z-index: 3;
     transition: 2s;
-
   }
 
   .whatsapp-icon svg {
     width: 180px;
     height: 180px;
-
   }
 
   .fivicon img {
@@ -570,34 +516,27 @@
 }
 
 @media screen and (max-width: 324px) {
-
   html,
   body {
     zoom: 48%;
-
   }
-
 
   #contato a {
     font-size: 45px;
   }
 }
 
-
 @media screen and (max-width: 290px) {
-
   html,
   body {
     zoom: 42%;
   }
 
   .whatsapp-icon {
-
     bottom: 174px;
     right: 10px;
     z-index: 3;
     transition: 2s;
-
   }
 
   .whatsapp-icon svg {
@@ -612,6 +551,4 @@
   #contato a {
     font-size: 45px;
   }
-
-
 }
