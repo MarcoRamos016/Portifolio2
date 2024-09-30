@@ -97,6 +97,10 @@ body.white {
     color: #000000;
   }
 
+  #curriculo a {
+    background-color: rgb(255, 255, 255);
+  }
+
   .navcontainer {
     background-color: rgb(255, 255, 255);
   }
