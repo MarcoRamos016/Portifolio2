@@ -390,8 +390,9 @@
   }
 
   .carousel-item img {
-    max-width: 100%;
-    width: 100%;
+    display: none;
+    width: 0;
+    height: 0;
   }
 
   .title-hab h1 {
